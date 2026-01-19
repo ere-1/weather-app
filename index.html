@@ -10,7 +10,7 @@
     <div class="container">
       <div class="items">
         <!-- search input -->
-        <div class="group"> 
+        <div class="group">
           <svg viewBox="0 0 24 24" aria-hidden="true" class="search-icon">
             <g>
               <path
@@ -19,21 +19,21 @@
           </svg>
 
           <input
-            id="query"
+            id="searchbar"
             class="input"
             type="search"
             placeholder="Search..."
             name="searchbar" />
         </div>
-        <p class="date">may 4 2025</p>
-        <h1 class="country">Egypt</h1>
-        <h2 class="status">status/cloud</h2>
-        <h1 class="temp">13*C</h1>
+        <p id="date" class="date">dd\mm\yy</p>
+        <h1 id="country" class="country">Country - city</h1>
+        <h2 id="status" class="status">status</h2>
+        <h1 id="temp" class="temp">13°C</h1>
         <div class="min-max">
-            <div class="min-max">
-                <p class="min">min:10*C</p>
-                <p class="max">max:15*C</p>
-            </div>
+          <div class="min-max">
+            <p id="mph" class="wind-mph">wind mph:Number</p>
+            <p id="kph" class="wind-kph">wind kph:Number</p>
+          </div>
         </div>
       </div>
     </div>
@@ -44,10 +44,6 @@
     <div class="shooting-star"></div>
     <div class="shooting-star"></div>
     <div class="shooting-star"></div>
-
-
-
-
 
     <script src="main.js"></script>
   </body>
